@@ -26,6 +26,12 @@ Permite visualizar órbitas, monitorar posições geográficas e acompanhar movi
 - SunCalc
 - OpenStreetMap
 
+----------------------------
+
+Seu server.js funciona, mas não tem proteção contra excesso de requisições nem segurança HTTP básica. Como você usa CommonJS (require) e node-fetch dinâmico, é necessário adicionar rate limiter e cabeçalhos de segurança (como o helmet) para proteger o servidor e o endpoint de TLE. bash 
+
+----------------------------
+
 ![Visualização do StarMap](public/img/starmap_preview.png)
 
 ## Como Executar
