@@ -26,6 +26,8 @@ Permite visualizar órbitas, monitorar posições geográficas e acompanhar movi
 - SunCalc
 - OpenStreetMap
 
+![Visualização do StarMap](public/img/starmap_preview.png)
+
 ## Como Executar
 1. Clone este repositório:
 
