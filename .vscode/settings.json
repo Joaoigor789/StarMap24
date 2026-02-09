@@ -1,0 +1,32 @@
+{
+    "projectColorizer.workspaceColor": "#5ed49f",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#5ed49f",
+        "activityBar.foreground": "#000000",
+        "activityBarBadge.background": "#000000",
+        "activityBarBadge.foreground": "#5ed49f",
+        "statusBar.background": "#5ed49f",
+        "statusBar.foreground": "#000000",
+        "statusBarItem.hoverBackground": "#76dbad",
+        "titleBar.activeBackground": "#5ed49f",
+        "titleBar.activeForeground": "#000000",
+        "titleBar.inactiveBackground": "#42b380",
+        "titleBar.inactiveForeground": "#000000b3"
+    },
+    "cSpell.words": [
+        "Combustivel",
+        "Consumidos",
+        "distancia",
+        "gasto",
+        "imprima",
+        "kilometros",
+        "latlng",
+        "Litro",
+        "Litros",
+        "nessa",
+        "preco",
+        "será",
+        "variavel",
+        "viagem"
+    ]
+}
