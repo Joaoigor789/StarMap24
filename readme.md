@@ -54,16 +54,6 @@ http://localhost:3000
 
 ```
 
-## Estrutura do Projeto
-starmap/
-│
-├─ public/
-│   ├─ index.html
-│   ├─ config/
-│   │   └─ img/  
-│
-├─ server.js
-└─ README.md
 Licença
 Este projeto está licenciado sob a licença MIT.
 
