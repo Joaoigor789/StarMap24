@@ -10,7 +10,31 @@ const port = 3000;
 const TLE_FILE = path.join(__dirname, 'public', 'tle.txt');
 
 
-app.use(helmet());
+app.use(
+helmet({
+contentSecurityPolicy: {
+directives: {
+defaultSrc: ["'self'"],
+scriptSrc: [
+"'self'",
+"https://unpkg.com",
+"https://cdnjs.cloudflare.com",
+"https://rawcdn.githack.com"
+],
+styleSrc: [
+"'self'",
+"'unsafe-inline'",
+"https://unpkg.com"
+],
+imgSrc: [
+"'self'",
+"data:",
+"https:"
+]
+}
+}
+})
+);
 
 
 const limiter = rateLimit({
